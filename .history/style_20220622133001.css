@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto,sans-serif;
+}
+.linear-gradient-btn{
+  padding: 20px 35px;
+  font-size:15px;
+  font-weight: 400;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  color: white;
+  background-image:linear-gradient(to right,#f55f8d 0,#f8ae56 51%,#f55f8d 100%);
+  transition: all .5s ease-in-out;
+
+  cursor: pointer;
+  line-height: 1.2;
+  background-size: 200%;
+  outline: none;
+  }
+.linear-gradient-btn:hover{
+    background-position: right center;
+}
+
+header{
+    width: 89%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 132px;
+    justify-content: space-between;
+}
+.menu{
+  display:flex;
+  align-items: center;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+  padding: 55px 15px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  margin-right:27px;
+  font-weight: 520;
+  transition: all .4s;
+  animation-name: upDown;
+  animation-duration: 4s;
+  
+}
+.menu ul li a:hover{
+  color:#f55f8d;
+}
+@keyframes upDown {
+  0%{
+    top:20px;
+  }
+  25%{
+    opacity:0;
+  }
+  50%{
+    opacity:1;
+    bottom:20px;
+  }
+  100%{
+    
+  }
+  
+}
+
+.menu ul i{
+  font-size:10px;
+}
+
+

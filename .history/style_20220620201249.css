@@ -1,0 +1,16 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  position: relative;
+    width: 89%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 132px;
+}
+.menu{
+  
+}
