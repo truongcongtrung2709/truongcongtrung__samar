@@ -349,9 +349,8 @@ width: 50%;
   box-shadow: 0 0 60px 0 rgb(0 0 0 /10% );
   border-radius: 10px;
   padding: 20px 20px;
-
 }
-  
+
 
 .features__item i{
   font-size: 80px;
@@ -366,6 +365,15 @@ width: 50%;
 }
 .features__item div p{
   font-size:16px;
+}
+.features__item:hover {
+  background-image:linear-gradient(to right,#f55f8d 0,#f8ae56 51%,#f55f8d 100%);
+  background-size: 200%;
+  transition: all 2s;
+}
+.features__item:hover div p,.features__item:hover div h3, .features__item:hover i{
+  color: white;
+  transition: all 2s;
 }
 
 .features__right{
