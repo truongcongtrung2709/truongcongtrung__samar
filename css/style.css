@@ -46,13 +46,7 @@ body{
 .linear-gradient-btn:hover{
     background-position: right center;
 }
-
-
-
 /* ----------------------Header---------------------- */
-
-
-
 header{
     position: absolute;
     width: 100%;
@@ -111,10 +105,7 @@ header .header__content{
     vertical-align: middle;
 }
 
-
 /* ----------Intro---------- */
-
-
 
 #intro{
   background-image: url('../Images/pic2.png');
@@ -169,12 +160,7 @@ header .header__content{
   animation-duration: 2s;
 }
 
-
-
 /* -------------------------SERVICE------------------------ */
-
-
-
 
 #services{
   background-image: url('../Images/bg2.png');
@@ -261,14 +247,7 @@ width: 50%;
   margin-top: 20px;
 }
 
-
-
-
-
 /* ------------------COUNT UP------------------------- */
-
-
-
 
 #count{
   padding: 80px 0 50px;
@@ -310,13 +289,7 @@ width: 50%;
   font-size:18px;
 }
 
-
-
-
 /* ------------------OUR FEATURES------------ */
-
-
-
 
 #features{
   background-image: url('../Images/bg2.png');
@@ -399,19 +372,7 @@ width: 50%;
   }
 }
 
-
-
-
-
-
-
-
 /* ------------------------PORTFOLIO------------------------ */
-
-
-
-
-
 
 #portfolio{
   background-image: url('../Images/bg17.png');
@@ -525,19 +486,7 @@ width: 50%;
   grid-row: 2/ 4;
 }
 
-
-
-
-
-
-
 /* ------------------------PLAN---------------------------- */
-
-
-
-
-
-
 
 #plan{
   background-image: url('../Images/bg16.png');
@@ -602,17 +551,7 @@ width: 50%;
     margin-right: 15px;
   }
 
-
-
-
-
-
   /* -----------------TESTIMONIAL------------- */
-
-
-
-
-
 
   #testimonial{
     text-align: center;
@@ -714,22 +653,7 @@ width: 50%;
 .swiper-slide-thumb-active .img__person::after, .swiper-slide-thumb-active .img__person::before , .swiper-slide-thumb-active .img__person .arrowdown{
   opacity: 1;
 }
-
-
-
-
-
-
-
 /* -----------Testimonial Comment--------------- */
-
-
-
-
-
-
-
-
 
 .testimonial-comment{
     min-height: 300px;
@@ -780,21 +704,7 @@ width: 50%;
   background: #f55f8d !important;
 }
 
-
-
-
-
-
-
-
-
-
 /* -------------BLOG-------------- */
-
-
-
-
-
 
 #blog{
     background-image: url('../Images/bg16.png');
@@ -870,15 +780,7 @@ width: 50%;
 .owl-carousel .owl-dots, .owl-carousel .owl-nav {
   display: none;
 }
-
-
-
 /* ---------------CONTACT-------------------- */
-
-
-
-
-
 #contact {
   background-image: url('../Images/bg4.png');
   background-color: #0e1b1f;
@@ -1016,13 +918,7 @@ width: 50%;
 .our__links i{
   margin-right:15px;
 }
-
-
-
-
 /* ------------------COPYRIGHT---------------- */
-
-
 .copyright{
   background-color: #1f343b;
   padding: 10px 0;
@@ -1079,6 +975,3 @@ width: 50%;
   opacity: 1;
 }
 
-.cd-top--fade-out {
-  opacity: 0.5;
-}
